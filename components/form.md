@@ -123,6 +123,7 @@ componentProps的类型有： `InputComponentProps` `AutocompleteComponentProps`
 基本上每个表单组件都有 `slots` 的插槽对象，用于自定义插槽，如 InputComponentProps ：
 
 ```ts
+size?:'large'|null,
 slots?: {
   prefix?: (...args: any[]) => JSX.Element | null
   suffix?: (...args: any[]) => JSX.Element | null
